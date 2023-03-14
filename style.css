@@ -49,7 +49,23 @@ nav .navbar .nav-links .links li{
 }
 
 nav .navbar .nav-links .links li a{
+    height: 100%;
     color: #fff;
     text-decoration: none;
     white-space: nowrap;
+}
+
+nav .navbar .nav-links .links li .arrow{
+   height: 100%;
+   width: 22px;
+   text-align: center;
+   color: #fff;
+   line-height: 70px;
+   transition: all 0.3s ease;
+}
+
+.navbar .nav-links .links li:hover .html-arrow,
+.navbar .nav-links .links li:hover .js-arrow{
+    transform: rotate(180deg);
+    
 }
