@@ -75,6 +75,7 @@ nav .navbar .nav-links .links li .arrow{
     position: absolute;
     top:70px;
     left: 0;
+    display: none;
     background-color: aquamarine;
     line-height: 40px;
     border-radius: 0 0 4px 4px;
@@ -90,4 +91,9 @@ nav .navbar .nav-links .links li .arrow{
 .navbar .nav-links .links .submenu li a{
     font-size: 20px;
     font: 550;
+}
+
+.navbar .nav-links .links li:hover .htmlCSS-submenu,
+.navbar .nav-links .links li:hover .js-submenu{
+    display: block;
 }
