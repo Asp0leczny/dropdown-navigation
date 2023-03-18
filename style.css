@@ -93,6 +93,10 @@ nav .navbar .nav-links .links li .arrow{
     font: 550;
 }
 
+.navbar .nav-links .links .submenu li .more-arrow{
+    line-height: 40px;
+}
+
 .navbar .nav-links .links li:hover .htmlCSS-submenu,
 .navbar .nav-links .links li:hover .js-submenu{
     display: block;
