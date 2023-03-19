@@ -101,3 +101,14 @@ nav .navbar .nav-links .links li .arrow{
 .navbar .nav-links .links li:hover .js-submenu{
     display: block;
 }
+
+.navbar .nav-links .links  .more:hover .more-submenu{
+    display: block;
+}
+.navbar .nav-links .links  .more .more-submenu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-radius: 0 40px 4px 4px;
+    display: none;
+}
