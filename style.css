@@ -109,6 +109,19 @@ nav .navbar .nav-links .links li .arrow{
     position: absolute;
     top: 0;
     left: 100%;
-    border-radius: 0 40px 4px 4px;
+    border-radius: 0 4px 4px 4px;
     display: none;
+}
+
+.navbar .search-box{
+    position: relative;
+    height: 40px;
+    width: 40px;
+
+}
+
+.navbar .search-box .bx-search{
+    color:#fff;
+    height: 100%;
+    width: 100%;
 }
